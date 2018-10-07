@@ -4,6 +4,10 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Person {
+    public Person() {
+        System.out.println("Person constructor initialized!!!");
+    }
+
     private String name;
     private int age;
 
