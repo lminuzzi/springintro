@@ -12,4 +12,12 @@ public class User {
         this.email = email;
         this.login = login;
     }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getLogin() {
+        return login;
+    }
 }
